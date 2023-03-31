@@ -1,0 +1,257 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-image: url('../images/kosmos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sun{
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/bright-sun.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: relative;
+    top: 290px;
+    left: 0px;
+    animation-name: sun;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.orbita1{
+    width: 200px;
+    height: 200px;
+    top: -25px;
+    left: -25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.mercury{
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/mercury.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    right: 60px;
+    animation-name: other-planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.orbita2{
+    width: 270px;
+    height: 270px;
+    top: -60px;
+    left: -60px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.venus{
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/venus.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: 190px;
+    right: 50px;
+    animation-name: other-planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.orbita3{
+    width: 340px;
+    height: 340px;
+    top: -95px;
+    left: -95px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.earth{
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/Earth.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: -120px;
+    animation-name: other-planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.orbita4{
+    width: 410px;
+    height: 410px;
+    top: -130px;
+    left: -130px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.mars{
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/mars.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 255px;
+    animation-name: other-planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.orbita5{
+    width: 480px;
+    height: 480px;
+    top: -165px;
+    left: -165px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.jupiter{
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/Jupiter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: -85px;
+    right: 247px;
+    animation-name: other-planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.orbita6{
+    width: 550px;
+    height: 550px;
+    top: -200px;
+    left: -200px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.saturn{
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/Saturnx.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: 160px;
+    left: 290px;
+    animation-name: other-planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.orbita7{
+    width: 620px;
+    height: 620px;
+    top: -235px;
+    left: -235px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.uranus{
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/uranus.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 185px;
+    left: 320px;
+    animation-name: other-planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.orbita8{
+    width: 700px;
+    height: 700px;
+    top: -276px;
+    left: -276px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.neptun{
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/Neptun.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    right: 355px;
+    animation-name: other-planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+
+
+
+
+@keyframes other-planet
+{  
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes sun {  
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
